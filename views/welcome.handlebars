@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image:url('image/photo1.jpg');
+            background-size: 100% 100%;
+            height: 821px;
+        }
+    </style>
+</head>
+<body>
+    {{> nav}}
+    <h2>Welcome User . You are successfully registered</h2>
+    <br>
+    <h4>Registered email is {{email}}</h4>
+    <br>
+    <h6>For login go to login page <a href="/user/login">Click Here</a></h6>
+</body>
+</html>
